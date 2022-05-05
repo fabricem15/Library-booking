@@ -1,6 +1,7 @@
-Name: Fabrice Mikobi
-Student number: 101196480
-Source files:
+# Overview 
+ Room booking application in C++ where a student may request a certain room in the library or search for rooms that match certain criteria 
+
+# Source files
     - Date.cc
     - Room.cc
     - Reservation.cc
@@ -8,7 +9,7 @@ Source files:
     - Library.cc
     - a1-global.cc: Used to test functions of the 5 classes aforementioned.  
     - main.cc: The main driver of the program. Calls on the a1-global.cc functions to test code correctness.
-Header files:
+# Header files
     - Date.h
     - Room.h
     - Reservation.h
@@ -16,8 +17,8 @@ Header files:
     - Library.h
 
 
-Compilation commands:
+# Compilation commands:
     - Use Makefile `make` in the current directory
-Launching commands:
+# Launching commands:
     - `./a1` in the terminal
     - with valgrind `valgrind ./a1`
